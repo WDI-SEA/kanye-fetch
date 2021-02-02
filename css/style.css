@@ -21,10 +21,7 @@ h1 {
   color: rgba(58, 70, 40, 0.76);
   text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.637), -1px -1px 1px white;
 }
-span {
-  display: flexbox;
-  justify-content: space-evenly;
-}
+
 h2 {
   display: contents;
   box-sizing: border-box;
