@@ -1,15 +1,17 @@
 function kQuote() {
-    fetch('https://api.kanye.rest/')
+    fetch('https://api.kanye.rest')
     .then(function(response) {
-            return response.json();
+            return response.json()
         })
         .then(function(json) {
-            let kanTent = document.createElement("h2")
+            let kanTent = document.querySelector("h2")
                 kanTent.innerText = json.quote;
-                document.body.appendChild(kanTent)
+                // document.body.appendChild(kanTent)
         });
 }
-document.getElementById('kWords').addEventListener('click', function() {
-    kQuote()
-});
+kQuote()
 
+const kNowledge = document.querySelector('#kWords')
+kNowledge.addEventListener('click', function() {
+    kQuote()
+})

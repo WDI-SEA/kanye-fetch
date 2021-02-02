@@ -1,4 +1,5 @@
 body {
+  color: aliceblue;
   background: black;
   padding: 0;
   margin: 0;
@@ -6,36 +7,34 @@ body {
   text-align: center;
   position: fixed;
   bottom: 0;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 h1 {
   z-index: 10;
   top: 0;
   position: fixed;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   align-self: center;
   box-sizing: border-box;
   max-height: 100px;
   color: rgba(58, 70, 40, 0.76);
   text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.637), -1px -1px 1px white;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 h2 {
   display: contents;
   box-sizing: border-box;
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
-  justify-items: center;
-  width: 100%;
-  padding: 20%;
-  line-height: 100px;
   color: rgba(30, 91, 131, 0.76);
   text-shadow: 1px 1px 5px rgba(241, 12, 12, 0.836), -1px -1px 1px white;
+  margin-bottom: 20%;
 }
 
-img{
+img {
   display: flex;
   position: fixed;
   align-content: center;
