@@ -10,7 +10,7 @@ Have you ever felt down? Moved from informed pessimism into the valley of despai
 * Display the wisdom on the page _(in a way that inspires)_
 * Have a button that a user can push to receive **another** gem from the father of four
 
-The main goal of this lab is to introduce you to 3rd party APIs and show you the possibilities. KanyeREST is a simple API, but there are more complicated ones out there if you finish the main goals early.
+The main goal of this deliverable is to introduce you to 3rd party APIs and show you the possibilities. KanyeREST is a simple API, but there are more complicated ones out there if you finish the main goals early.
 
 ### Resources
 
